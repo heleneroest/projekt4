@@ -4,19 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
-        <title>Let røven</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald:200' rel='stylesheet' type='text/css'>
+        <title>Det Grønne Odense</title>
     </head>
     <header>
-        <br>
-        <a href="http://odense.dk"><img src="billeder/logo.jpg" alt="logo" width=220></a>
-        <nav>
-            <ul class="nav-container">
-              <li><a href="forside.html" class="active">FORSIDE</a></li>
-              <li><a href="portfolio.html">PORTFOLIO</a></li>
-              <li><a href="ommig.html">OM MIG</a></li>
-              <li><a href="kontakt.html">KONTAKT</a></li>
-            </ul>
-        </nav>
+        <div class="top-bar">
+            <a href="index.html"><img src="billeder/odensehvid.png" alt="logo" width=220></a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="oplevelser.html">OPLEVELSER</a>
+            <a href="events.html">EVENTS</a>
+            <a href="udflugtsmaal.html">UDFLUGTSMÅL</a>
+            <a href="ruter.html">RUTER</a>
+            <a href="kontakt.html">KONTAKT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav"){
+                    x.className += " responsive";
+                }
+                else{
+                    x.className = "topnav";
+                }
+            }
+        </script>
         <br>
     </header>
     <body>
@@ -24,28 +38,43 @@
             <img src="billeder/skov2.jpg" alt="to personer går over en lille bro i en skov" width=100%>
             <div class="text-block">
                 <h1>Det Grønne Odense</h1>
-                <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder</p>
+                <p class="bold">Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder</p>
                 <button class="button">LÆS MERE</button>
             </div>
         </div>
-      <div class="container">
-          <div class="portfolio-container">
-             <div>
-                 <a href="fotografi.html"><img src="billeder/1.png" alt="portrætbillede af pige"  style="width:100%"></a>
-                 <h2><a href="fotografi.html">Gåture</a></h2>
-                 <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
-             </div>
-             <div>
-                 <a href="video.html"><img src="billeder/2.png" alt="screenshot af projekt i Premiere Pro"  style="width:100%"></a>
-                 <h2><a href="video.html">Parker og haver</a></h2>
-                 <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
-             </div>
-             <div>
-                 <a href="indesign.html"><img src="billeder/3.png" alt="sceenshot fra indesign" style="width:100%"></a>
-                 <h2><a href="indesign.html">Oplevelser</h2>
-                 <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
+        <div class="container">
+            <div class="portfolio-container">
+                <div>
+                    <a href="ruter.html"><img src="billeder/1.png" alt="glad kvinde og to børn går tur i skov"  style="width:100%"></a>
+                    <h2><a href="ruter.html">Ruter i Odense</a></h2>
+                    <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
+                </div>
+                <div>
+                    <a href="parker.html"><img src="billeder/2.png" alt="mange personer og godt vejr i Munke Mose Park"  style="width:100%"></a>
+                    <h2><a href="parker.html">Parker og haver</a></h2>
+                    <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
+                </div>
+                <div>
+                    <a href="oplevelser.html"><img src="billeder/3.png" alt="unge kvinder rorer i kajak i Odense" style="width:100%"></a>
+                    <h2><a href="oplevelser.html">Oplevelser</h2><a/>
+                    <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
+                </div>
             </div>
-          </div>
-      </div>
+        </div>
+        <video class="video" width="960" height="540"  controls>
+            <source src="videoer/test.mp4" type="video/mp4">
+            Din browser kan ikke vise videoen.
+        </video>
     </body>
-</html>
+    <footer class="flex-container-footer">
+        <div>
+            <div class="headline"> Odense Kommune </div>
+            <br> CVR-nummer: 35209115
+            <br>Telefon: 78 73 42 46
+        </div>
+        <div>Kontakt kommunen
+            <br> Pressemeddelelser
+            <br> Få teksten læst op (nyt vindue)
+        </div>
+    </footer>
+    </html>
