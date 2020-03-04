@@ -360,3 +360,11 @@ h2{
   grid-gap:1em;
   margin-top: 2%;
 }
+
+.footer{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: #42A5F5;
+  color: white;
+  padding: 20px;
+}
