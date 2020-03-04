@@ -408,3 +408,9 @@ h2{
   color: white;
   padding: 20px;
 }
+
+@media screen and (max-width: 600px){
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
