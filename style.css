@@ -326,6 +326,11 @@ h2{
 
 }
 
+@media screen and (max-width: 600px){
+    .wrapper-sider{
+        grid-template-columns: 1fr;
+    }
+}
 
 
 .vertical-menu a {
@@ -407,10 +412,4 @@ h2{
   background: #42A5F5;
   color: white;
   padding: 20px;
-}
-
-@media screen and (max-width: 600px){
-    .wrapper{
-        grid-template-columns: 1fr;
-    }
 }
