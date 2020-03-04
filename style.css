@@ -1,21 +1,20 @@
 /* GENERELT */
 body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 50;
-    line-height: 1.5;
-    background:  rgb(240, 237, 233);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background: rgb(240, 237, 233);
 }
 
 @font-face{
-    font-family: Oswaldd;
-    src: url('fonts/Oswald.ttf');
+  font-family: Oswaldd;
+  src: url('fonts/Oswald.ttf');
 }
 
 @font-face{
-    font-family: fatface;
-    src: url('AbrilFatface-Regular.otf');
+  font-family: fatface;
+  src: url('AbrilFatface-Regular.otf');
 }
 
 a{
@@ -29,19 +28,19 @@ p{
 }
 
 p1{
-    font-size:1.5vw;
+    font-size: 20px;
 }
 
 h1{
-    font-family: Abril Fatface;
-    font-size:5vw;
+    font-family: fatface;
+    font-size:60px;
     margin-bottom: -20px;
     margin-top: -20px;
     padding:0px;
 }
 
 h2{
-    font-family: Abril Fatface;
+    font-family: fatface;
     font-size: 20px;
     margin-bottom: 0px;
     padding:0px;
@@ -56,6 +55,7 @@ h2{
 .top-bar{
     background-color: rgb(68, 155, 220);
     padding-left: 20%;
+
 }
 
 .topnav{
@@ -94,6 +94,9 @@ h2{
     /* Når skærmen er 600px eller mindre skjules sidelinksne i menuen, undtagen det første link.
     derudover vises burgerikonet.*/
     @media screen and (max-width: 600px){
+        .topnav a{
+          font-size: 20px;
+        }
         .topnav a:not(:first-child){
             display: none;
         }
@@ -101,6 +104,13 @@ h2{
             float: right;
             display: block;
         }
+        h1{
+          font-size: 40px;
+        }
+        p1{
+          font-size: 15px;
+        }
+
     }
 
     /* Når der bliver trykket på burgerikonet, bliver klassen "responsive" tilføjet til klassen "topnav".*/
@@ -179,6 +189,8 @@ h2{
     display: block;
     margin: 0 auto;
     padding: 5%;
+    width: 60%;
+   height: auto;
 }
 
 /* FOOTER */
