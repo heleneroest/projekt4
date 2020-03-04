@@ -413,3 +413,7 @@ h2{
   color: white;
   padding: 20px;
 }
+.nested {
+  padding: 14px 16px;
+  background-color: white;
+  }
