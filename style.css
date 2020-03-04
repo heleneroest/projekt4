@@ -206,6 +206,7 @@ h2{
 
 
 .flex-container-footer{
+    margin-top: 2%;
     color: white;
     background-color: rgb(68, 155, 220);
     display: flex;
