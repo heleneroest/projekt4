@@ -183,6 +183,8 @@ h2{
 
 /* FOOTER */
 
+
+
 .flex-container-footer{
     color: white;
     background-color: rgb(68, 155, 220);
@@ -190,6 +192,8 @@ h2{
     justify-content: center;
     justify-content: space-around;
     padding: 2%;
+    position: absolute;
+    width: 100%;
 }
 
 .headline{
@@ -269,4 +273,90 @@ h2{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  padding-left: 19.5%;
+  margin-top: 2%;
+
+}
+.vertical-menu {
+  width: 200px;
+
+}
+
+
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  text-decoration-color: rgb(180,180,180);
+  border-bottom: 2px solid #ccc;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  color: rgb(68, 155, 220);
+}
+
+.big-oswald{
+    font-family: Oswald;
+    font-size: 25px;
+    /*text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: rgb(180,180,180);*/
+}
+
+/* UNDER-UNDERSIDER */
+
+.wrapper{
+  display:grid;
+  grid-template-columns:1fr 4fr;
+  grid-auto-rows:minmax(50px, auto);
+  grid-gap:1em;
+}
+
+
+
+.box1{
+  align-self:start;
+}
+
+.box2{
+  align-self: end;
+}
+
+.box3{
+  justify-self:end;
+}
+
+.nested{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 1%;
+}
+
+.nested > div{
+  background:green;
+  padding:1em
+}
+.nested > div:nth-child(odd){
+  background:red;
+}
+
+.h1-sider{
+  font-size: 40px;
+}
+
+.wrapper-sider{
+  display:grid;
+  grid-template-columns:1fr 4fr;
+  grid-auto-rows:minmax(50px, auto);
+  grid-gap:1em;
+  margin-top: 2%;
 }
