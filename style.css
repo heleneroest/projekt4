@@ -207,6 +207,7 @@ h2{
 
 
 .flex-container-footer{
+    margin-top: 2%;
     color: white;
     background-color: rgb(68, 155, 220);
     display: flex;
@@ -398,4 +399,12 @@ h2{
   grid-auto-rows:minmax(50px, auto);
   grid-gap:1em;
   margin-top: 2%;
+}
+
+.footer{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: #42A5F5;
+  color: white;
+  padding: 20px;
 }
