@@ -416,8 +416,13 @@ h2{
 .nested {
   padding: 14px 16px;
   }
-  @media screen and (max-width:600px) {  
+  @media screen and (max-width:600px) {
     .nested img {
       display: none;
     }
   }
+  @media only screen and (max-width: 600px) {
+    .nested {
+       display: block;
+    }
+}
