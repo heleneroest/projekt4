@@ -207,39 +207,34 @@ h2{
 
 
 .flex-container-footer{
-    margin-top: 2%;
     color: white;
     background-color: rgb(68, 155, 220);
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding: 2%;
-    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
-
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-top: 6px;
+    text-align: center;
 }
+
 
 
 .footer-kontakt{
   display: flex;
-  position: fixed;
+  position: absolute;
   color: white;
   height: 50px;
   background-color: rgb(68, 155, 220);
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: auto;
-  padding: 2%;
   margin-bottom: 0px;
-  justify-content: center;
-  justify-content: space-evenly;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-top: 6px;
+  text-align: center;
 }
-
-.headline{
-    font-family: Oswald;
-    font-size: 20px;
-    }
 
 .simpel-h1{
   font-family: Oswald;
