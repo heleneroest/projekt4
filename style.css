@@ -106,6 +106,8 @@ h2{
     }
 
 
+
+
     /* Når skærmen er 600px eller mindre skjules sidelinksne i menuen, undtagen det første link.
     derudover vises burgerikonet.*/
     @media screen and (max-width: 600px){
@@ -423,4 +425,8 @@ h2{
     .nested {
        display: block;
     }
+}
+
+.container img {
+  width:100%;
 }
