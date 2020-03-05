@@ -383,12 +383,12 @@ h2{
 .nested{
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 1%;
+  grid-column-gap: 3%;
 }
 
 .nested > div{
   background:green;
-  padding:1em
+  padding:1em;
 }
 .nested > div:nth-child(odd){
   background:red;
@@ -414,7 +414,7 @@ h2{
   padding: 20px;
 }
 
-/*Media querris til tekstområderne på undersiderne*/ 
+/*Media querris til tekstområderne på undersiderne*/
 
 .nested {
   padding: 14px 16px;
