@@ -413,6 +413,9 @@ h2{
   color: white;
   padding: 20px;
 }
+
+/*Media querris til tekstområderne på undersiderne*/ 
+
 .nested {
   padding: 14px 16px;
   }
