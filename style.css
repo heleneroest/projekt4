@@ -233,7 +233,7 @@ h2{
   padding: 2%;
   margin-bottom: 0px;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .headline{
