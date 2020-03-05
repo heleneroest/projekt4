@@ -422,3 +422,10 @@ h2{
 .container img {
   width:100%;
 }
+
+#footer i.fab {
+    font-size: 30px;
+    color: white;
+    margin-right: 8px;
+    text-decoration: none;
+}
