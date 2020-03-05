@@ -1,89 +1,100 @@
 <!DOCTYPE html>
 <html lang="da-DK">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style.css" rel="stylesheet" type="text/css">
-         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href='https://fonts.googleapis.com/css?family=Oswald:200' rel='stylesheet' type='text/css'>
-        <script src="https://kit.fontawesome.com/6d5c74aa15.js" crossorigin="anonymous"></script>
-        <meta name="description" content="Der er en masse muligheder for, at komme ud og nyde en dejlige natur i Odense kommune. Mangler du inspiration er du kommet til det rigtige sted. Vi har gå ruter, event og oplevelser for enhver smag. Se mere på vores hjemmeside.">
-        <title>Det Grønne Odense</title>
-    </head>
-    <body>
-      <header>
-          <div class="top-bar">
-              <a href="index.html"><img src="billeder/odensehvid.png" alt="logo" width=220></a>
-          </div>
-          <div class="topnav" id="myTopnav">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:200' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/6d5c74aa15.js" crossorigin="anonymous"></script>
+    <meta name="description"
+        content="Der er en masse muligheder for, at komme ud og nyde en dejlige natur i Odense kommune. Mangler du inspiration er du kommet til det rigtige sted. Vi har gå ruter, event og oplevelser for enhver smag. Se mere på vores hjemmeside.">
+    <title>Det Grønne Odense</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="index.html"><img src="billeder/odensehvid.png" alt="logo" width=220></a>
+        </div>
+        <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">FORSIDE</a>
-              <a href="oplevelser.html">OPLEVELSER</a>
-              <a href="events.html">EVENTS</a>
-              <a href="udflugtsmaal.html">UDFLUGTSMÅL</a>
-              <a href="ruter.html">RUTER</a>
-              <a href="kontakt.html">KONTAKT</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-          </div>
-          <!--javascript-->
-          <script>
-              function myFunction(){
-                  var x = document.getElementById("myTopnav");
-                  if (x.className === "topnav"){
-                      x.className += " responsive";
-                  }
-                  else{
-                      x.className = "topnav";
-                  }
-              }
-          </script>
-      </header>
-        <div class="container">
-            <img src="billeder/skov2.jpg" alt="to personer går over en lille bro i en skov">
-            <div class="text-block">
-                <h1>Det Grønne Odense</h1>
-                <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder</p>
-                <button class="button">LÆS MERE</button>
+            <a href="oplevelser.html">OPLEVELSER</a>
+            <a href="events.html">EVENTS</a>
+            <a href="udflugtsmaal.html">UDFLUGTSMÅL</a>
+            <a href="ruter.html">RUTER</a>
+            <a href="kontakt.html">KONTAKT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <!--javascript-->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                }
+                else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </header>
+    <div class="container">
+        <img src="billeder/skov2.jpg" alt="to personer går over en lille bro i en skov">
+        <div class="text-block">
+            <h1>Det Grønne Odense</h1>
+            <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste
+                steder</p>
+            <button class="button">LÆS MERE</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="portfolio-container">
+            <div>
+                <a href="ruter.html"><img src="billeder/1.png" alt="glad kvinde og to børn går tur i skov"
+                        style="width:100%"></a>
+                <h2><a href="ruter.html">Ruter i Odense</a></h2>
+                <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste
+                    steder.</p>
+            </div>
+            <div>
+                <a href="parker.html"><img src="billeder/2.png" alt="mange personer og godt vejr i Munke Mose Park"
+                        style="width:100%"></a>
+                <h2><a href="parker.html">Parker og haver</a></h2>
+                <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste
+                    steder.</p>
+            </div>
+            <div>
+                <a href="oplevelser.html"><img src="billeder/3.png" alt="unge kvinder rorer i kajak i Odense"
+                        style="width:100%"></a>
+                <h2><a href="oplevelser.html">Oplevelser</a></h2>
+                <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste
+                    steder.</p>
             </div>
         </div>
-        <div class="container">
-            <div class="portfolio-container">
-                <div>
-                    <a href="ruter.html"><img src="billeder/1.png" alt="glad kvinde og to børn går tur i skov"  style="width:100%"></a>
-                    <h2><a href="ruter.html">Ruter i Odense</a></h2>
-                    <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
-                </div>
-                <div>
-                    <a href="parker.html"><img src="billeder/2.png" alt="mange personer og godt vejr i Munke Mose Park"  style="width:100%"></a>
-                    <h2><a href="parker.html">Parker og haver</a></h2>
-                    <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
-                </div>
-                <div>
-                    <a href="oplevelser.html"><img src="billeder/3.png" alt="unge kvinder rorer i kajak i Odense" style="width:100%"></a>
-                    <h2><a href="oplevelser.html">Oplevelser</a></h2>
-                    <p>Odense Kommune har samlet inspiration til forskellige gåture, som får dig omkring Odenses smukkeste steder.</p>
-                </div>
-            </div>
-        </div>
-        <video class="video" width="960" height="540"  controls>
-            <source src="videoer/video.mp4" type="video/mp4">
-            Din browser kan ikke vise videoen.
-        </video>
-      <footer>
+    </div>
+    <video class="video" width="960" height="540" controls>
+        <source src="videoer/video.mp4" type="video/mp4">
+        Din browser kan ikke vise videoen.
+    </video>
+    <footer>
         <div class="flex-container-footer">
-          <h2>Kontakt os her:</h2>
-          <p>CVR-nummer: 35209115
-          <br>
-          Telefon: 78 73 42 46</p>
-          <footer id="footer" class="section">
-            <a href="https://www.facebook.com/groups/1584942441659832/?fref=nf" target="_blank">
-            <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com/let_numsen/" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-        </a>
-    </footer>
+            <h2>Kontakt os her:</h2>
+            <p>CVR-nummer: 35209115
+                <br>
+                Telefon: 78 73 42 46</p>
+            <footer id="footer" class="section">
+                <a href="https://www.facebook.com/groups/1584942441659832/?fref=nf" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/let_numsen/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </a>
+            </footer>
         </div>
-      </footer>
-    </body>
-    </html>
+    </footer>
+</body>
+
+</html>
