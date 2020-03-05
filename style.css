@@ -216,23 +216,24 @@ h2{
     padding: 2%;
     position: absolute;
     width: 100%;
+
 }
 
 
 .footer-kontakt{
-    display: flex;
+  display: flex;
   position: fixed;
-    color: white;
-   height: 50px;
-   background-color: rgb(68, 155, 220);
-   bottom: 0px;
-   left: 0px;
-   right: 0px;
-   height: auto;
-   padding: 2%;
-   margin-bottom: 0px;
-   justify-content: center;
-   justify-content: space-around;
+  color: white;
+  height: 50px;
+  background-color: rgb(68, 155, 220);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  padding: 2%;
+  margin-bottom: 0px;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 .headline{
